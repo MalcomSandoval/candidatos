@@ -5,11 +5,11 @@ function App() {
   const candidates = [
     {
       id: 1,
-      name: "María Alejandra Rodríguez",
+      name: "Mafe Dominguez",
       age: 22,
       position: "Candidata #1",
-      education: "Estudiante de Derecho - Universidad Nacional",
-      description: "Comprometida con la justicia social y los derechos de la juventud colombiana.",
+      education: "Estudiante de Ambiente - INETFRADPAS",
+      description: "Joven comprometida .",
       proposals: ["Becas universitarias", "Empleo juvenil", "Participación ciudadana"],
       image: "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=400",
       social: {
