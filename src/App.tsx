@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, Heart, Globe, Twitter, Instagram, Facebook, Mail, Phone, MapPin, Vote, Star, ArrowRight, Calendar, Clock, MapPin as Location, ExternalLink } from 'lucide-react';
+import { Users, Heart, Globe, Twitter, Instagram, Facebook, Mail, Phone, MapPin, Vote, Star, ArrowRight, Calendar, Clock, MapPin as Location, ExternalLink, Tiktok } from 'lucide-react';
 
 function App() {
   const candidates = [
@@ -11,11 +11,11 @@ function App() {
       education: "Estudiante de Ambiente - INETFRADPAS",
       description: "Joven comprometida .",
       proposals: ["Becas universitarias", "Empleo juvenil", "Participación ciudadana"],
-      image: "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "images/b24e02c3-082b-4b68-9eb8-59e0c8808db4.jpg",
       social: {
-        twitter: "@mariaalejandra_r",
         instagram: "@mariarodriguez.oficial",
-        facebook: "María Alejandra Rodríguez"
+        facebook: "María Alejandra Rodríguez",
+        tiktok: "@mariaalejandra_r"
       }
     },
     {
@@ -235,11 +235,11 @@ function App() {
                     <div className="border-t pt-4">
                       <h5 className="font-semibold text-gray-800 mb-3">Síguenos en redes:</h5>
                       <div className="flex space-x-3">
-                        <a href={`https://twitter.com/${candidates[0].social.twitter.replace('@', '')}`} 
+                        <a href={`https://tiktok.com/${candidates[0].social.tiktok.replace('@', '')}`}
                            target="_blank" 
                            rel="noopener noreferrer"
-                           className="bg-blue-500 text-white p-2 rounded-full hover:bg-blue-600 transition-colors group">
-                          <Twitter className="w-4 h-4" />
+                           className="bg-black text-white p-2 rounded-full hover:bg-gray-800 transition-colors group">
+                          <Tiktok className="w-4 h-4" />
                           <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity absolute" />
                         </a>
                         <a href={`https://instagram.com/${candidates[0].social.instagram.replace('@', '')}`}
